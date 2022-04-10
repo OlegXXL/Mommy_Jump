@@ -7,7 +7,7 @@ public class Camera : MonoBehaviour
     {
         if (doodlePosition.position.y > transform.position.y)
         {
-            transform.position = new Vector3(transform.position.x, doodlePosition.position.y, doodlePosition.position.z);
+            transform.position = new Vector3(transform.position.x, doodlePosition.position.y, -10);
         }
     }
 }

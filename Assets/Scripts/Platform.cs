@@ -1,8 +1,12 @@
+using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Platform : MonoBehaviour
 {
     public float forceJump;
+    private Text score;
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
@@ -14,10 +18,17 @@ public class Platform : MonoBehaviour
 
     public void OnCollisionExit2D(Collision2D collision)
     {
+        var TextList = GameObject.FindGameObjectsWithTag("TextTag").ToList();
+        score = TextList[0].GetComponent<Text>();
+
         if (collision.collider.name == "DeadZone")
         {
+            if (gameObject.tag != "PTND" && int.Parse(score.text.ToString()) % 10 == 0)
+            {
+                Destroy(gameObject);
+            }
             float RandX = Random.Range(-1.7f, 1.7f);
-            float Randy = Random.Range(transform.position.y + 13f, transform.position.y + 15f);
+            float Randy = transform.position.y + 20.8f;
 
             transform.position = new Vector3(RandX, Randy, 0);
         }
