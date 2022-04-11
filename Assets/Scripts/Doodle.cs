@@ -6,6 +6,7 @@ public class Doodle : MonoBehaviour
     public static Doodle instance;
     float horizontal;
     public Rigidbody2D DoodleRigid;
+    [SerializeField] public AdsCore MyAdwert;
 
     void Start()
     {
@@ -39,6 +40,7 @@ public class Doodle : MonoBehaviour
     {
         if (collision.collider.name == "DeadZone")
         {
+            MyAdwert.ShowSkipVideo();
             SceneManager.LoadScene(0);
         }
     }
