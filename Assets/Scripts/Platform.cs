@@ -23,11 +23,11 @@ public class Platform : MonoBehaviour
 
         if (collision.collider.name == "DeadZone")
         {
-            if (gameObject.tag != "PTND" && int.Parse(score.text.ToString()) % 10 == 0)
+            if (gameObject.tag != "PTND" && int.Parse(score.text.ToString()) % 20 == 0)
             {
                 Destroy(gameObject);
             }
-            float RandX = Random.Range(-1.7f, 1.7f);
+            float RandX = Random.Range(-2f, 2f);
             float Randy = transform.position.y + 20.8f;
 
             transform.position = new Vector3(RandX, Randy, 0);

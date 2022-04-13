@@ -1,0 +1,7 @@
+-keep class com.unity.androidnotifications.UnityNotificationManager { <init>(); }
+-keep class com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver { <init>(); }
+-keep class com.unity3d.player.UnityPlayerActivity { <init>(); }
+-keep class com.unity3d.services.ads.adunit.AdUnitActivity { <init>(); }
+-keep class com.unity3d.services.ads.adunit.AdUnitSoftwareActivity { <init>(); }
+-keep class com.unity3d.services.ads.adunit.AdUnitTransparentActivity { <init>(); }
+-keep class com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity { <init>(); }
