@@ -1,0 +1,4 @@
+#Wed Apr 13 18:38:59 EEST 2022
+base.0=D\:\\Unity\\UnityTeam\\Clones\\Mommy_Jump\\Temp\\gradleOut\\launcher\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

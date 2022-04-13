@@ -22,7 +22,7 @@ public class Spring : MonoBehaviour
 
         if (collision.collider.name == "DeadZone")
         {
-            if (gameObject.tag != "PTND" && int.Parse(score.text.ToString()) % 10 == 0)
+            if (gameObject.tag != "PTND" && int.Parse(score.text.ToString()) % 20 == 0)
             {
                 Destroy(gameObject);
             }
