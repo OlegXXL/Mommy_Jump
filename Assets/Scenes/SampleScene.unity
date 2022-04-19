@@ -242,7 +242,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &192824990
 RectTransform:
   m_ObjectHideFlags: 0
@@ -477,6 +477,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420030}
+  - component: {fileID: 519420033}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -564,6 +565,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &519420033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0720e6d01c2ce842a18224083dbee2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &637284250
 GameObject:
   m_ObjectHideFlags: 0
@@ -677,6 +690,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DoodleRigid: {fileID: 662121022}
   ChangeScale: {x: 0, y: 0, z: 0}
+  MainUI: {fileID: 1230468241}
+  counterPoint: {fileID: 192824989}
+  myAds: {fileID: 519420033}
+  bestScore: {fileID: 1223955045}
 --- !u!50 &662121022
 Rigidbody2D:
   serializedVersion: 4
@@ -697,7 +714,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 6
 --- !u!61 &662121023
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -711,18 +728,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.42539203, y: -0.16591942}
+  m_Offset: {x: 0.4049648, y: -1.1038241}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 9.2, y: 5.96}
+    oldSize: {x: 7.277068, y: 8.813454}
     newSize: {x: 9.2, y: 5.96}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.4167302, y: 4.4904375}
+  m_Size: {x: 4.077445, y: 6.366247}
   m_EdgeRadius: 0
 --- !u!212 &662121024
 SpriteRenderer:
@@ -764,7 +781,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 16fe3fa34a0d3ab40b4b7d30f59dc57f, type: 3}
+  m_Sprite: {fileID: 1704890292961847542, guid: b9513a9618caeba4a8ccc1cb673e5a0c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -783,7 +800,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 662121020}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.13, y: 0.38, z: 0}
+  m_LocalPosition: {x: -0.13, y: 0.43, z: 0}
   m_LocalScale: {x: 0.08742609, y: 0.073431775, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
@@ -800,7 +817,6 @@ GameObject:
   - component: {fileID: 1223955043}
   - component: {fileID: 1223955046}
   - component: {fileID: 1223955045}
-  - component: {fileID: 1223955044}
   m_Layer: 5
   m_Name: Text (1)
   m_TagString: TextTag
@@ -827,21 +843,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.00027466, y: 0.0000076293945}
   m_SizeDelta: {x: 570.32, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1223955044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1223955042}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ea66427d9c67874388fa8d07cfcbbe7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  score: {fileID: 1223955045}
-  doodle: {fileID: 662121025}
-  maxScore: 0
 --- !u!114 &1223955045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1086,7 +1087,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1814735394}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 662121021}
+        m_TargetAssemblyTypeName: Doodle, Assembly-CSharp
+        m_MethodName: StartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1814735394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1259,18 +1272,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 8062196947036763788, guid: 28ec45c94f09d5342b33c53f32237092, type: 3}
-      propertyPath: m_Size.x
-      value: 19.2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8062196947036763788, guid: 28ec45c94f09d5342b33c53f32237092, type: 3}
-      propertyPath: m_Size.y
-      value: 10.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 8062196947036763788, guid: 28ec45c94f09d5342b33c53f32237092, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 8062196947036763789, guid: 28ec45c94f09d5342b33c53f32237092, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1315,33 +1316,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8062196947036763889, guid: 28ec45c94f09d5342b33c53f32237092, type: 3}
-      propertyPath: score
-      value: 
-      objectReference: {fileID: 192824991}
     - target: {fileID: 8062196947036763891, guid: 28ec45c94f09d5342b33c53f32237092, type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 19.2
+      propertyPath: m_Size.x
+      value: 6.277365
       objectReference: {fileID: 0}
     - target: {fileID: 8062196947036763891, guid: 28ec45c94f09d5342b33c53f32237092, type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 10.8
+      propertyPath: m_Size.y
+      value: 0.2971312
       objectReference: {fileID: 0}
     - target: {fileID: 8062196947036763891, guid: 28ec45c94f09d5342b33c53f32237092, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 5.46
+      propertyPath: m_Offset.x
+      value: 0.009386301
       objectReference: {fileID: 0}
     - target: {fileID: 8062196947036763891, guid: 28ec45c94f09d5342b33c53f32237092, type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 1.2
+      propertyPath: m_Offset.y
+      value: 0.018688992
       objectReference: {fileID: 0}
     - target: {fileID: 8062196947036763895, guid: 28ec45c94f09d5342b33c53f32237092, type: 3}
       propertyPath: m_Name
       value: Platform
-      objectReference: {fileID: 0}
-    - target: {fileID: 8062196947036763895, guid: 28ec45c94f09d5342b33c53f32237092, type: 3}
-      propertyPath: m_TagString
-      value: PTND
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28ec45c94f09d5342b33c53f32237092, type: 3}
