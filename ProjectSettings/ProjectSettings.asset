@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 22
-  productGUID: 2dc9336045d40bc4fac7b0764f4d1e29
+  productGUID: 03c84a0c144092d458415d3e4b658da0
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: DoodleJump
+  companyName: Melory
+  productName: MommyJumpik
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -22,7 +22,7 @@ PlayerSettings:
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
   m_SplashScreenLogoStyle: 1
-  m_SplashScreenDrawMode: 0
+  m_SplashScreenDrawMode: 1
   m_SplashScreenBackgroundAnimationZoom: 1
   m_SplashScreenLogoAnimationZoom: 1
   m_SplashScreenBackgroundLandscapeAspect: 1
@@ -40,7 +40,7 @@ PlayerSettings:
     width: 1
     height: 1
   m_SplashScreenLogos:
-  - logo: {fileID: 0}
+  - logo: {fileID: 10404, guid: 0000000000000000e000000000000000, type: 0}
     duration: 2
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
@@ -155,11 +155,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.DefaultCompany.DoodleJump
-    Lumin: com.DefaultCompany.com.unity.template.mobile2D
-    Standalone: com.DefaultCompany.com.unity.template.mobile2D
-    iPhone: com.DefaultCompany.com.unity.template.mobile2D
-    tvOS: com.DefaultCompany.com.unity.template.mobile2D
+    Android: com.Melory.MommyJumpik
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -238,9 +234,9 @@ PlayerSettings:
   iOSAutomaticallyDetectAndAddCapabilities: 1
   appleEnableProMotion: 0
   shaderPrecisionModel: 0
-  clonedFromGUID: f918f204a65eb664ba9e5b39d533ff8e
-  templatePackageId: com.unity.template.mobile2d@1.0.2
-  templateDefaultScene: Assets/Scenes/SampleScene.unity
+  clonedFromGUID: 00000000000000000000000000000000
+  templatePackageId: 
+  templateDefaultScene: 
   useCustomMainManifest: 0
   useCustomLauncherManifest: 0
   useCustomMainGradleTemplate: 0
@@ -252,8 +248,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: userKey.keystore'
-  AndroidKeyaliasName: mommy
+  AndroidKeystoreName: '{inproject}: user.keystore'
+  AndroidKeyaliasName: baldi
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
   AndroidIsGame: 1
@@ -276,7 +272,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: b7f1b0fc37f3ac540a134b0393ff656f, type: 3}
+      m_Icon: {fileID: 2800000, guid: cba9330b1a9fe8640950ae6947528076, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
@@ -374,41 +370,9 @@ PlayerSettings:
       m_Kind: 0
       m_SubKind: 
   m_BuildTargetBatching: []
-  m_BuildTargetGraphicsJobs:
-  - m_BuildTarget: MacStandaloneSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: Switch
-    m_GraphicsJobs: 0
-  - m_BuildTarget: MetroSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: AppleTVSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: BJMSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: LinuxStandaloneSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: PS4Player
-    m_GraphicsJobs: 0
-  - m_BuildTarget: iOSSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: WindowsStandaloneSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: XboxOnePlayer
-    m_GraphicsJobs: 0
-  - m_BuildTarget: LuminSupport
-    m_GraphicsJobs: 0
-  - m_BuildTarget: AndroidPlayer
-    m_GraphicsJobs: 0
-  - m_BuildTarget: WebGLSupport
-    m_GraphicsJobs: 0
+  m_BuildTargetGraphicsJobs: []
   m_BuildTargetGraphicsJobMode: []
-  m_BuildTargetGraphicsAPIs:
-  - m_BuildTarget: AndroidPlayer
-    m_APIs: 150000000b000000
-    m_Automatic: 1
-  - m_BuildTarget: iOSSupport
-    m_APIs: 10000000
-    m_Automatic: 1
+  m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
@@ -439,6 +403,7 @@ PlayerSettings:
   switchScreenResolutionBehavior: 2
   switchUseCPUProfiler: 0
   switchUseGOLDLinker: 0
+  switchLTOSetting: 0
   switchApplicationID: 0x01004b9000490000
   switchNSODependencies: 
   switchTitleNames_0: 
@@ -610,7 +575,7 @@ PlayerSettings:
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
   playerPrefsMaxSize: 32768
-  ps4Passcode: bi9UOuSpM2Tlh01vOzwvSikHFswuzleh
+  ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -677,7 +642,6 @@ PlayerSettings:
   suppressCommonWarnings: 1
   allowUnsafeCode: 0
   useDeterministicCompilation: 1
-  useReferenceAssemblies: 1
   enableRoslynAnalyzers: 1
   additionalIl2CppArgs: 
   scriptingRuntimeVersion: 1
@@ -688,14 +652,14 @@ PlayerSettings:
     Android: 3
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: 2D_BuiltInRenderer
+  metroPackageName: New Unity Project
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: 2D_BuiltInRenderer
+  metroApplicationDescription: New Unity Project
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -742,7 +706,14 @@ PlayerSettings:
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
   vrEditorSettings: {}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    Analytics: 0
+    Build: 0
+    Collab: 0
+    Game Performance: 0
+    Purchasing: 0
+    UDP: 0
+    Unity Ads: 1
   luminIcon:
     m_Name: 
     m_ModelFolderPath: 
@@ -756,11 +727,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 
+  cloudProjectId: 06991538-fa9f-47d3-a24f-139027f58b0f
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: JellyBeanVsSkeletons
+  organizationId: melory-games
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   virtualTexturingSupportEnabled: 0

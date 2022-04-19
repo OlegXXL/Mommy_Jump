@@ -606,8 +606,9 @@ IL_0014:
 }
 IL2CPP_EXTERN_C  Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * RaycastHit_get_collider_m13A3DE16FBC631E0A1F987E0B22CE70AF8AB539E_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
+	RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 * _thisAdjusted;
 	int32_t _offset = 1;
-	RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 * _thisAdjusted = reinterpret_cast<RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 *>(__this + _offset);
 	Collider_t5E81E43C2ECA0209A7C4528E84A632712D192B02 * _returnValue;
 	_returnValue = RaycastHit_get_collider_m13A3DE16FBC631E0A1F987E0B22CE70AF8AB539E(_thisAdjusted, method);
 	return _returnValue;
@@ -631,8 +632,9 @@ IL_000a:
 }
 IL2CPP_EXTERN_C  Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  RaycastHit_get_point_m32F7282CBB2E13393A33BAD046BDA218E48DD21E_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
+	RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 * _thisAdjusted;
 	int32_t _offset = 1;
-	RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 * _thisAdjusted = reinterpret_cast<RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 *>(__this + _offset);
 	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  _returnValue;
 	_returnValue = RaycastHit_get_point_m32F7282CBB2E13393A33BAD046BDA218E48DD21E(_thisAdjusted, method);
 	return _returnValue;
@@ -656,8 +658,9 @@ IL_000a:
 }
 IL2CPP_EXTERN_C  Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  RaycastHit_get_normal_m2C813B25BAECD87FD9E9CB294278B291F4CC6674_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
+	RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 * _thisAdjusted;
 	int32_t _offset = 1;
-	RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 * _thisAdjusted = reinterpret_cast<RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 *>(__this + _offset);
 	Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  _returnValue;
 	_returnValue = RaycastHit_get_normal_m2C813B25BAECD87FD9E9CB294278B291F4CC6674(_thisAdjusted, method);
 	return _returnValue;
@@ -680,8 +683,9 @@ IL_000a:
 }
 IL2CPP_EXTERN_C  float RaycastHit_get_distance_m85FCA98D7957C3BF1D449CA1B48C116CCD6226FA_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
+	RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 * _thisAdjusted;
 	int32_t _offset = 1;
-	RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 * _thisAdjusted = reinterpret_cast<RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<RaycastHit_t59E5AEC8FE13BFA2ACBB6FFBDB7585FFB7288F89 *>(__this + _offset);
 	float _returnValue;
 	_returnValue = RaycastHit_get_distance_m85FCA98D7957C3BF1D449CA1B48C116CCD6226FA(_thisAdjusted, method);
 	return _returnValue;
