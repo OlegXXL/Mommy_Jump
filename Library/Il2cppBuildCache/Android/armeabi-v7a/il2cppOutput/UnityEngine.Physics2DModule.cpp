@@ -1984,8 +1984,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContactFilter2D_CheckConsistency_m4B6DAA
 }
 IL2CPP_EXTERN_C  void ContactFilter2D_CheckConsistency_m4B6DAA0197DC017E3B7A8B8F661729431504C5D1_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
+	ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB * _thisAdjusted;
 	int32_t _offset = 1;
-	ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB * _thisAdjusted = reinterpret_cast<ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB *>(__this + _offset);
 	ContactFilter2D_CheckConsistency_m4B6DAA0197DC017E3B7A8B8F661729431504C5D1(_thisAdjusted, method);
 }
 // System.Void UnityEngine.ContactFilter2D::SetLayerMask(UnityEngine.LayerMask)
@@ -2000,8 +2001,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContactFilter2D_SetLayerMask_m925C98BC2E
 }
 IL2CPP_EXTERN_C  void ContactFilter2D_SetLayerMask_m925C98BC2EEAA78349B3ED3654BC3C362743BBDE_AdjustorThunk (RuntimeObject * __this, LayerMask_t5FA647D8C300EA0621360CA4424717C3C73190A8  ___layerMask0, const RuntimeMethod* method)
 {
+	ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB * _thisAdjusted;
 	int32_t _offset = 1;
-	ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB * _thisAdjusted = reinterpret_cast<ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB *>(__this + _offset);
 	ContactFilter2D_SetLayerMask_m925C98BC2EEAA78349B3ED3654BC3C362743BBDE(_thisAdjusted, ___layerMask0, method);
 }
 // System.Void UnityEngine.ContactFilter2D::SetDepth(System.Single,System.Single)
@@ -2019,8 +2021,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ContactFilter2D_SetDepth_m63872B3F8BBDB9
 }
 IL2CPP_EXTERN_C  void ContactFilter2D_SetDepth_m63872B3F8BBDB962AF44D064BA328599C74D840F_AdjustorThunk (RuntimeObject * __this, float ___minDepth0, float ___maxDepth1, const RuntimeMethod* method)
 {
+	ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB * _thisAdjusted;
 	int32_t _offset = 1;
-	ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB * _thisAdjusted = reinterpret_cast<ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB *>(__this + _offset);
 	ContactFilter2D_SetDepth_m63872B3F8BBDB962AF44D064BA328599C74D840F(_thisAdjusted, ___minDepth0, ___maxDepth1, method);
 }
 // UnityEngine.ContactFilter2D UnityEngine.ContactFilter2D::CreateLegacyFilter(System.Int32,System.Single,System.Single)
@@ -2690,8 +2693,9 @@ IL_0022:
 }
 IL2CPP_EXTERN_C  String_t* PhysicsScene2D_ToString_mDA6F499BD218AA31A450D918BB6C1890A9CE1109_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
+	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted;
 	int32_t _offset = 1;
-	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
 	String_t* _returnValue;
 	_returnValue = PhysicsScene2D_ToString_mDA6F499BD218AA31A450D918BB6C1890A9CE1109(_thisAdjusted, method);
 	return _returnValue;
@@ -2714,8 +2718,9 @@ IL_000a:
 }
 IL2CPP_EXTERN_C  int32_t PhysicsScene2D_GetHashCode_m4B5D8DCBA0AD6E5767C4D7A6AD6BC789EB19C8F5_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
+	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted;
 	int32_t _offset = 1;
-	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
 	int32_t _returnValue;
 	_returnValue = PhysicsScene2D_GetHashCode_m4B5D8DCBA0AD6E5767C4D7A6AD6BC789EB19C8F5(_thisAdjusted, method);
 	return _returnValue;
@@ -2766,8 +2771,9 @@ IL_002d:
 }
 IL2CPP_EXTERN_C  bool PhysicsScene2D_Equals_m0C61F175C3B1BB308ADBC2AB323CEC45D1B5E99C_AdjustorThunk (RuntimeObject * __this, RuntimeObject * ___other0, const RuntimeMethod* method)
 {
+	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted;
 	int32_t _offset = 1;
-	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
 	bool _returnValue;
 	_returnValue = PhysicsScene2D_Equals_m0C61F175C3B1BB308ADBC2AB323CEC45D1B5E99C(_thisAdjusted, ___other0, method);
 	return _returnValue;
@@ -2792,8 +2798,9 @@ IL_0012:
 }
 IL2CPP_EXTERN_C  bool PhysicsScene2D_Equals_m581586F404E7A3BD3B6F0A05362974A6B523A2DA_AdjustorThunk (RuntimeObject * __this, PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48  ___other0, const RuntimeMethod* method)
 {
+	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted;
 	int32_t _offset = 1;
-	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
 	bool _returnValue;
 	_returnValue = PhysicsScene2D_Equals_m581586F404E7A3BD3B6F0A05362974A6B523A2DA(_thisAdjusted, ___other0, method);
 	return _returnValue;
@@ -2829,8 +2836,9 @@ IL_0025:
 }
 IL2CPP_EXTERN_C  RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4  PhysicsScene2D_Raycast_m22F55CAAA1B34A02757A5C6E2B573F6464B32723_AdjustorThunk (RuntimeObject * __this, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  ___origin0, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  ___direction1, float ___distance2, int32_t ___layerMask3, const RuntimeMethod* method)
 {
+	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted;
 	int32_t _offset = 1;
-	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
 	RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4  _returnValue;
 	_returnValue = PhysicsScene2D_Raycast_m22F55CAAA1B34A02757A5C6E2B573F6464B32723(_thisAdjusted, ___origin0, ___direction1, ___distance2, ___layerMask3, method);
 	return _returnValue;
@@ -2860,8 +2868,9 @@ IL_0014:
 }
 IL2CPP_EXTERN_C  RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4  PhysicsScene2D_Raycast_m167DAEC271F46133013EB0AAF2C7807064EBB3F2_AdjustorThunk (RuntimeObject * __this, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  ___origin0, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  ___direction1, float ___distance2, ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB  ___contactFilter3, const RuntimeMethod* method)
 {
+	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted;
 	int32_t _offset = 1;
-	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
 	RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4  _returnValue;
 	_returnValue = PhysicsScene2D_Raycast_m167DAEC271F46133013EB0AAF2C7807064EBB3F2(_thisAdjusted, ___origin0, ___direction1, ___distance2, ___contactFilter3, method);
 	return _returnValue;
@@ -2903,8 +2912,9 @@ IL_0016:
 }
 IL2CPP_EXTERN_C  int32_t PhysicsScene2D_Raycast_m3B011D4A6CA691739178E253665799A7AD0CB423_AdjustorThunk (RuntimeObject * __this, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  ___origin0, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  ___direction1, float ___distance2, ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB  ___contactFilter3, RaycastHit2DU5BU5D_tDEABD9FBBA32C695C932A32A1B8FB9C06A496F09* ___results4, const RuntimeMethod* method)
 {
+	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted;
 	int32_t _offset = 1;
-	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
 	int32_t _returnValue;
 	_returnValue = PhysicsScene2D_Raycast_m3B011D4A6CA691739178E253665799A7AD0CB423(_thisAdjusted, ___origin0, ___direction1, ___distance2, ___contactFilter3, ___results4, method);
 	return _returnValue;
@@ -2945,8 +2955,9 @@ IL_0016:
 }
 IL2CPP_EXTERN_C  int32_t PhysicsScene2D_Raycast_m6FB2BBC4E3BE53114D7F6EFA975F5AF703ADCDC0_AdjustorThunk (RuntimeObject * __this, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  ___origin0, Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  ___direction1, float ___distance2, ContactFilter2D_t82BBB159A7E392A24921803A0E79669F4E34DFCB  ___contactFilter3, List_1_t3926283FA9AE49778D95220056CEBFB01D034379 * ___results4, const RuntimeMethod* method)
 {
+	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted;
 	int32_t _offset = 1;
-	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
 	int32_t _returnValue;
 	_returnValue = PhysicsScene2D_Raycast_m6FB2BBC4E3BE53114D7F6EFA975F5AF703ADCDC0(_thisAdjusted, ___origin0, ___direction1, ___distance2, ___contactFilter3, ___results4, method);
 	return _returnValue;
@@ -2989,8 +3000,9 @@ IL_0021:
 }
 IL2CPP_EXTERN_C  int32_t PhysicsScene2D_GetRayIntersection_mB6F14C8BB95609094BE9BDB218483EAAC4117B5A_AdjustorThunk (RuntimeObject * __this, Ray_t2E9E67CC8B03EE6ED2BBF3D2C9C96DDF70E1D5E6  ___ray0, float ___distance1, RaycastHit2DU5BU5D_tDEABD9FBBA32C695C932A32A1B8FB9C06A496F09* ___results2, int32_t ___layerMask3, const RuntimeMethod* method)
 {
+	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted;
 	int32_t _offset = 1;
-	PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 * _thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<PhysicsScene2D_tB68D090292BC3369F94CBB7496FE96EB00853E48 *>(__this + _offset);
 	int32_t _returnValue;
 	_returnValue = PhysicsScene2D_GetRayIntersection_mB6F14C8BB95609094BE9BDB218483EAAC4117B5A(_thisAdjusted, ___ray0, ___distance1, ___results2, ___layerMask3, method);
 	return _returnValue;
@@ -3081,8 +3093,9 @@ IL_000a:
 }
 IL2CPP_EXTERN_C  Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  RaycastHit2D_get_point_m10D5AB3B26EAE62583BE35CFA13A3E40BDAF30AE_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
+	RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 * _thisAdjusted;
 	int32_t _offset = 1;
-	RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 * _thisAdjusted = reinterpret_cast<RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 *>(__this + _offset);
 	Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  _returnValue;
 	_returnValue = RaycastHit2D_get_point_m10D5AB3B26EAE62583BE35CFA13A3E40BDAF30AE(_thisAdjusted, method);
 	return _returnValue;
@@ -3106,8 +3119,9 @@ IL_000a:
 }
 IL2CPP_EXTERN_C  Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  RaycastHit2D_get_normal_m6F8B9F4018EFA126CC33126E8E42B09BB5A82637_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
+	RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 * _thisAdjusted;
 	int32_t _offset = 1;
-	RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 * _thisAdjusted = reinterpret_cast<RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 *>(__this + _offset);
 	Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  _returnValue;
 	_returnValue = RaycastHit2D_get_normal_m6F8B9F4018EFA126CC33126E8E42B09BB5A82637(_thisAdjusted, method);
 	return _returnValue;
@@ -3130,8 +3144,9 @@ IL_000a:
 }
 IL2CPP_EXTERN_C  float RaycastHit2D_get_distance_mA910B45BD349A8F70139F6BC1E686F47F40A1662_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
+	RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 * _thisAdjusted;
 	int32_t _offset = 1;
-	RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 * _thisAdjusted = reinterpret_cast<RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 *>(__this + _offset);
 	float _returnValue;
 	_returnValue = RaycastHit2D_get_distance_mA910B45BD349A8F70139F6BC1E686F47F40A1662(_thisAdjusted, method);
 	return _returnValue;
@@ -3164,8 +3179,9 @@ IL_0014:
 }
 IL2CPP_EXTERN_C  Collider2D_tDDBF081328B83D21D0BA3B5036D77B32528BA722 * RaycastHit2D_get_collider_m00F7EC55C36F39E2ED64B31354FB4D9C8938D563_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
+	RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 * _thisAdjusted;
 	int32_t _offset = 1;
-	RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 * _thisAdjusted = reinterpret_cast<RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<RaycastHit2D_t210878DAEBC96C1F69DF9883C454758724A106A4 *>(__this + _offset);
 	Collider2D_tDDBF081328B83D21D0BA3B5036D77B32528BA722 * _returnValue;
 	_returnValue = RaycastHit2D_get_collider_m00F7EC55C36F39E2ED64B31354FB4D9C8938D563(_thisAdjusted, method);
 	return _returnValue;

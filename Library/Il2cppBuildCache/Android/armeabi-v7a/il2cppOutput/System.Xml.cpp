@@ -12,7 +12,7 @@
 
 
 template <typename R>
-struct VirtFuncInvoker0
+struct VirtualFuncInvoker0
 {
 	typedef R (*Func)(void*, const RuntimeMethod*);
 
@@ -23,7 +23,7 @@ struct VirtFuncInvoker0
 	}
 };
 template <typename R, typename T1>
-struct VirtFuncInvoker1
+struct VirtualFuncInvoker1
 {
 	typedef R (*Func)(void*, T1, const RuntimeMethod*);
 
@@ -1093,8 +1093,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DebuggerDisplayXmlNodeProxy__ctor_m642A7
 }
 IL2CPP_EXTERN_C  void DebuggerDisplayXmlNodeProxy__ctor_m642A7050652762B06121029C9357EBC554BF11CF_AdjustorThunk (RuntimeObject * __this, XmlNode_t26782CDADA207DFC891B2772C8DB236DD3D324A1 * ___node0, const RuntimeMethod* method)
 {
+	DebuggerDisplayXmlNodeProxy_t3DC53395257D0BEE64B31911A3E3A460E89BC8BC * _thisAdjusted;
 	int32_t _offset = 1;
-	DebuggerDisplayXmlNodeProxy_t3DC53395257D0BEE64B31911A3E3A460E89BC8BC * _thisAdjusted = reinterpret_cast<DebuggerDisplayXmlNodeProxy_t3DC53395257D0BEE64B31911A3E3A460E89BC8BC *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<DebuggerDisplayXmlNodeProxy_t3DC53395257D0BEE64B31911A3E3A460E89BC8BC *>(__this + _offset);
 	DebuggerDisplayXmlNodeProxy__ctor_m642A7050652762B06121029C9357EBC554BF11CF_inline(_thisAdjusted, ___node0, method);
 }
 // System.String System.Xml.DebuggerDisplayXmlNodeProxy::ToString()
@@ -1122,12 +1123,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DebuggerDisplayXmlNodeProxy_ToStrin
 		XmlNode_t26782CDADA207DFC891B2772C8DB236DD3D324A1 * L_0 = __this->get_node_0();
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(6 /* System.Xml.XmlNodeType System.Xml.XmlNode::get_NodeType() */, L_0);
+		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(6 /* System.Xml.XmlNodeType System.Xml.XmlNode::get_NodeType() */, L_0);
 		V_0 = L_1;
 		RuntimeObject * L_2 = Box(XmlNodeType_t6202952ADDE08339EF2AAC42CE97C84E99AC5D81_il2cpp_TypeInfo_var, (&V_0));
 		NullCheck(L_2);
 		String_t* L_3;
-		L_3 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_2);
+		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_2);
 		V_0 = *(int32_t*)UnBox(L_2);
 		V_1 = L_3;
 		int32_t L_4 = V_0;
@@ -1213,7 +1214,7 @@ IL_006b:
 		XmlNode_t26782CDADA207DFC891B2772C8DB236DD3D324A1 * L_6 = __this->get_node_0();
 		NullCheck(L_6);
 		String_t* L_7;
-		L_7 = VirtFuncInvoker0< String_t* >::Invoke(4 /* System.String System.Xml.XmlNode::get_Name() */, L_6);
+		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(4 /* System.String System.Xml.XmlNode::get_Name() */, L_6);
 		String_t* L_8;
 		L_8 = String_Concat_m37A5BF26F8F8F1892D60D727303B23FB604FEE78(L_5, _stringLiteral99EFCE42C9A728EA7C113BD7034366462E5E09E6, L_7, _stringLiteralC62C64F00567C5368CAE37F4E64E1E82FF785677, /*hidden argument*/NULL);
 		V_1 = L_8;
@@ -1236,7 +1237,7 @@ IL_008c:
 		XmlNode_t26782CDADA207DFC891B2772C8DB236DD3D324A1 * L_14 = __this->get_node_0();
 		NullCheck(L_14);
 		String_t* L_15;
-		L_15 = VirtFuncInvoker0< String_t* >::Invoke(4 /* System.String System.Xml.XmlNode::get_Name() */, L_14);
+		L_15 = VirtualFuncInvoker0< String_t* >::Invoke(4 /* System.String System.Xml.XmlNode::get_Name() */, L_14);
 		NullCheck(L_13);
 		ArrayElementTypeCheck (L_13, L_15);
 		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)L_15);
@@ -1248,7 +1249,7 @@ IL_008c:
 		XmlNode_t26782CDADA207DFC891B2772C8DB236DD3D324A1 * L_18 = __this->get_node_0();
 		NullCheck(L_18);
 		String_t* L_19;
-		L_19 = VirtFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Xml.XmlNode::get_Value() */, L_18);
+		L_19 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Xml.XmlNode::get_Value() */, L_18);
 		IL2CPP_RUNTIME_CLASS_INIT(XmlConvert_t5D0BE0A0EE15E2D3EC7F4881C519B5137DFA370A_il2cpp_TypeInfo_var);
 		String_t* L_20;
 		L_20 = XmlConvert_EscapeValueForDebuggerDisplay_mC40B38C8845EA60991107697E06530945FA22382(L_19, /*hidden argument*/NULL);
@@ -1271,7 +1272,7 @@ IL_00da:
 		XmlNode_t26782CDADA207DFC891B2772C8DB236DD3D324A1 * L_24 = __this->get_node_0();
 		NullCheck(L_24);
 		String_t* L_25;
-		L_25 = VirtFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Xml.XmlNode::get_Value() */, L_24);
+		L_25 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Xml.XmlNode::get_Value() */, L_24);
 		IL2CPP_RUNTIME_CLASS_INIT(XmlConvert_t5D0BE0A0EE15E2D3EC7F4881C519B5137DFA370A_il2cpp_TypeInfo_var);
 		String_t* L_26;
 		L_26 = XmlConvert_EscapeValueForDebuggerDisplay_mC40B38C8845EA60991107697E06530945FA22382(L_25, /*hidden argument*/NULL);
@@ -1299,7 +1300,7 @@ IL_00fd:
 		XmlDocumentType_t55BFF797BDB36BC814FF1749F054F8AC70DE1B3F * L_34 = V_2;
 		NullCheck(L_34);
 		String_t* L_35;
-		L_35 = VirtFuncInvoker0< String_t* >::Invoke(4 /* System.String System.Xml.XmlNode::get_Name() */, L_34);
+		L_35 = VirtualFuncInvoker0< String_t* >::Invoke(4 /* System.String System.Xml.XmlNode::get_Name() */, L_34);
 		NullCheck(L_33);
 		ArrayElementTypeCheck (L_33, L_35);
 		(L_33)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)L_35);
@@ -1359,8 +1360,9 @@ IL_016c:
 }
 IL2CPP_EXTERN_C  String_t* DebuggerDisplayXmlNodeProxy_ToString_mE82DF4E0CDF161B6B3114A3DFB20874120E92F9D_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
+	DebuggerDisplayXmlNodeProxy_t3DC53395257D0BEE64B31911A3E3A460E89BC8BC * _thisAdjusted;
 	int32_t _offset = 1;
-	DebuggerDisplayXmlNodeProxy_t3DC53395257D0BEE64B31911A3E3A460E89BC8BC * _thisAdjusted = reinterpret_cast<DebuggerDisplayXmlNodeProxy_t3DC53395257D0BEE64B31911A3E3A460E89BC8BC *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<DebuggerDisplayXmlNodeProxy_t3DC53395257D0BEE64B31911A3E3A460E89BC8BC *>(__this + _offset);
 	String_t* _returnValue;
 	_returnValue = DebuggerDisplayXmlNodeProxy_ToString_mE82DF4E0CDF161B6B3114A3DFB20874120E92F9D(_thisAdjusted, method);
 	return _returnValue;
@@ -1478,7 +1480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlCharType_InitInstance_m59CB9FA98F2521
 
 IL_0008:
 	try
-	{ // begin try (depth: 1)
+	{// begin try (depth: 1)
 		{
 			RuntimeObject * L_1 = V_0;
 			Monitor_Enter_mBEB6CC84184B46F26375EC3FC8921D16E48EA4C4(L_1, (bool*)(&V_1), /*hidden argument*/NULL);
@@ -1510,7 +1512,7 @@ IL_001b:
 			XmlCharType_SetProperties_m95495DAAF50A803B8B25CF4DB4A6A34A07B04DAE(_stringLiteral81ABCB006928101D1882FA2FBB7BFA00FE053221, (uint8_t)((int32_t)128), /*hidden argument*/NULL);
 			IL2CPP_LEAVE(0x97, FINALLY_008d);
 		}
-	} // end try (depth: 1)
+	}// end try (depth: 1)
 	catch(Il2CppExceptionWrapper& e)
 	{
 		__last_unhandled_exception = (Exception_t *)e.ex;
@@ -1518,7 +1520,7 @@ IL_001b:
 	}
 
 FINALLY_008d:
-	{ // begin finally (depth: 1)
+	{// begin finally (depth: 1)
 		{
 			bool L_4 = V_1;
 			if (!L_4)
@@ -1537,7 +1539,7 @@ IL_0096:
 		{
 			IL2CPP_END_FINALLY(141)
 		}
-	} // end finally (depth: 1)
+	}// end finally (depth: 1)
 	IL2CPP_CLEANUP(141)
 	{
 		IL2CPP_RETHROW_IF_UNHANDLED(Exception_t *)
@@ -1638,8 +1640,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlCharType__ctor_mF597588002D63E65BC835
 }
 IL2CPP_EXTERN_C  void XmlCharType__ctor_mF597588002D63E65BC835ABC21221BB1525A6637_AdjustorThunk (RuntimeObject * __this, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___charProperties0, const RuntimeMethod* method)
 {
+	XmlCharType_t0B35CAE2B2E20F28A418270966E9989BBDB004BA * _thisAdjusted;
 	int32_t _offset = 1;
-	XmlCharType_t0B35CAE2B2E20F28A418270966E9989BBDB004BA * _thisAdjusted = reinterpret_cast<XmlCharType_t0B35CAE2B2E20F28A418270966E9989BBDB004BA *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<XmlCharType_t0B35CAE2B2E20F28A418270966E9989BBDB004BA *>(__this + _offset);
 	XmlCharType__ctor_mF597588002D63E65BC835ABC21221BB1525A6637_inline(_thisAdjusted, ___charProperties0, method);
 }
 // System.Xml.XmlCharType System.Xml.XmlCharType::get_Instance()
@@ -1900,7 +1903,7 @@ IL_00d0:
 		StringBuilder_t * L_45 = V_0;
 		NullCheck(L_45);
 		String_t* L_46;
-		L_46 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_45);
+		L_46 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_45);
 		return L_46;
 	}
 }
@@ -2057,7 +2060,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XmlReader_get_Name_m7F0E945CC30317A
 	}
 	{
 		String_t* L_0;
-		L_0 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Xml.XmlReader::get_Prefix() */, __this);
+		L_0 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Xml.XmlReader::get_Prefix() */, __this);
 		NullCheck(L_0);
 		int32_t L_1;
 		L_1 = String_get_Length_m129FC0ADA02FECBED3C0B1A809AE84A5AEE1CF09_inline(L_0, /*hidden argument*/NULL);
@@ -2068,23 +2071,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XmlReader_get_Name_m7F0E945CC30317A
 	}
 	{
 		String_t* L_2;
-		L_2 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Xml.XmlReader::get_LocalName() */, __this);
+		L_2 = VirtualFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Xml.XmlReader::get_LocalName() */, __this);
 		return L_2;
 	}
 
 IL_0014:
 	{
 		XmlNameTable_t5A8AA505CA799E0DC25E9815E4106817D2E1E280 * L_3;
-		L_3 = VirtFuncInvoker0< XmlNameTable_t5A8AA505CA799E0DC25E9815E4106817D2E1E280 * >::Invoke(10 /* System.Xml.XmlNameTable System.Xml.XmlReader::get_NameTable() */, __this);
+		L_3 = VirtualFuncInvoker0< XmlNameTable_t5A8AA505CA799E0DC25E9815E4106817D2E1E280 * >::Invoke(10 /* System.Xml.XmlNameTable System.Xml.XmlReader::get_NameTable() */, __this);
 		String_t* L_4;
-		L_4 = VirtFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Xml.XmlReader::get_Prefix() */, __this);
+		L_4 = VirtualFuncInvoker0< String_t* >::Invoke(7 /* System.String System.Xml.XmlReader::get_Prefix() */, __this);
 		String_t* L_5;
-		L_5 = VirtFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Xml.XmlReader::get_LocalName() */, __this);
+		L_5 = VirtualFuncInvoker0< String_t* >::Invoke(6 /* System.String System.Xml.XmlReader::get_LocalName() */, __this);
 		String_t* L_6;
 		L_6 = String_Concat_m89EAB4C6A96B0E5C3F87300D6BE78D386B9EFC44(L_4, _stringLiteral876C4B39B6E4D0187090400768899C71D99DE90D, L_5, /*hidden argument*/NULL);
 		NullCheck(L_3);
 		String_t* L_7;
-		L_7 = VirtFuncInvoker1< String_t*, String_t* >::Invoke(4 /* System.String System.Xml.XmlNameTable::Add(System.String) */, L_3, L_6);
+		L_7 = VirtualFuncInvoker1< String_t*, String_t* >::Invoke(4 /* System.String System.Xml.XmlNameTable::Add(System.String) */, L_3, L_6);
 		return L_7;
 	}
 }
@@ -2179,8 +2182,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XmlReaderDebuggerDisplayProxy__ctor_m784
 }
 IL2CPP_EXTERN_C  void XmlReaderDebuggerDisplayProxy__ctor_m784E61728FD15306C180AE7EA023511D8704FB0A_AdjustorThunk (RuntimeObject * __this, XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * ___reader0, const RuntimeMethod* method)
 {
+	XmlReaderDebuggerDisplayProxy_t06BFFD864B3662CB3DA3FEDA06E8F2A9C626501E * _thisAdjusted;
 	int32_t _offset = 1;
-	XmlReaderDebuggerDisplayProxy_t06BFFD864B3662CB3DA3FEDA06E8F2A9C626501E * _thisAdjusted = reinterpret_cast<XmlReaderDebuggerDisplayProxy_t06BFFD864B3662CB3DA3FEDA06E8F2A9C626501E *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<XmlReaderDebuggerDisplayProxy_t06BFFD864B3662CB3DA3FEDA06E8F2A9C626501E *>(__this + _offset);
 	XmlReaderDebuggerDisplayProxy__ctor_m784E61728FD15306C180AE7EA023511D8704FB0A_inline(_thisAdjusted, ___reader0, method);
 }
 // System.String System.Xml.XmlReader/XmlReaderDebuggerDisplayProxy::ToString()
@@ -2209,12 +2213,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* XmlReaderDebuggerDisplayProxy_ToStr
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_0 = __this->get_reader_0();
 		NullCheck(L_0);
 		int32_t L_1;
-		L_1 = VirtFuncInvoker0< int32_t >::Invoke(4 /* System.Xml.XmlNodeType System.Xml.XmlReader::get_NodeType() */, L_0);
+		L_1 = VirtualFuncInvoker0< int32_t >::Invoke(4 /* System.Xml.XmlNodeType System.Xml.XmlReader::get_NodeType() */, L_0);
 		V_0 = L_1;
 		RuntimeObject * L_2 = Box(XmlNodeType_t6202952ADDE08339EF2AAC42CE97C84E99AC5D81_il2cpp_TypeInfo_var, (&V_0));
 		NullCheck(L_2);
 		String_t* L_3;
-		L_3 = VirtFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_2);
+		L_3 = VirtualFuncInvoker0< String_t* >::Invoke(3 /* System.String System.Object::ToString() */, L_2);
 		V_0 = *(int32_t*)UnBox(L_2);
 		V_1 = L_3;
 		int32_t L_4 = V_0;
@@ -2300,7 +2304,7 @@ IL_006b:
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_6 = __this->get_reader_0();
 		NullCheck(L_6);
 		String_t* L_7;
-		L_7 = VirtFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Xml.XmlReader::get_Name() */, L_6);
+		L_7 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Xml.XmlReader::get_Name() */, L_6);
 		String_t* L_8;
 		L_8 = String_Concat_m37A5BF26F8F8F1892D60D727303B23FB604FEE78(L_5, _stringLiteral99EFCE42C9A728EA7C113BD7034366462E5E09E6, L_7, _stringLiteralC62C64F00567C5368CAE37F4E64E1E82FF785677, /*hidden argument*/NULL);
 		V_1 = L_8;
@@ -2323,7 +2327,7 @@ IL_008c:
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_14 = __this->get_reader_0();
 		NullCheck(L_14);
 		String_t* L_15;
-		L_15 = VirtFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Xml.XmlReader::get_Name() */, L_14);
+		L_15 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Xml.XmlReader::get_Name() */, L_14);
 		NullCheck(L_13);
 		ArrayElementTypeCheck (L_13, L_15);
 		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)L_15);
@@ -2335,7 +2339,7 @@ IL_008c:
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_18 = __this->get_reader_0();
 		NullCheck(L_18);
 		String_t* L_19;
-		L_19 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Xml.XmlReader::get_Value() */, L_18);
+		L_19 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Xml.XmlReader::get_Value() */, L_18);
 		IL2CPP_RUNTIME_CLASS_INIT(XmlConvert_t5D0BE0A0EE15E2D3EC7F4881C519B5137DFA370A_il2cpp_TypeInfo_var);
 		String_t* L_20;
 		L_20 = XmlConvert_EscapeValueForDebuggerDisplay_mC40B38C8845EA60991107697E06530945FA22382(L_19, /*hidden argument*/NULL);
@@ -2358,7 +2362,7 @@ IL_00da:
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_24 = __this->get_reader_0();
 		NullCheck(L_24);
 		String_t* L_25;
-		L_25 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Xml.XmlReader::get_Value() */, L_24);
+		L_25 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Xml.XmlReader::get_Value() */, L_24);
 		IL2CPP_RUNTIME_CLASS_INIT(XmlConvert_t5D0BE0A0EE15E2D3EC7F4881C519B5137DFA370A_il2cpp_TypeInfo_var);
 		String_t* L_26;
 		L_26 = XmlConvert_EscapeValueForDebuggerDisplay_mC40B38C8845EA60991107697E06530945FA22382(L_25, /*hidden argument*/NULL);
@@ -2374,7 +2378,7 @@ IL_00fd:
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_29 = __this->get_reader_0();
 		NullCheck(L_29);
 		String_t* L_30;
-		L_30 = VirtFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Xml.XmlReader::get_Name() */, L_29);
+		L_30 = VirtualFuncInvoker0< String_t* >::Invoke(5 /* System.String System.Xml.XmlReader::get_Name() */, L_29);
 		String_t* L_31;
 		L_31 = String_Concat_m37A5BF26F8F8F1892D60D727303B23FB604FEE78(L_28, _stringLiteral99EFCE42C9A728EA7C113BD7034366462E5E09E6, L_30, _stringLiteral42646B33B50B6AA15E22733C8900716F0FE19E1D, /*hidden argument*/NULL);
 		V_1 = L_31;
@@ -2382,7 +2386,7 @@ IL_00fd:
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_33 = __this->get_reader_0();
 		NullCheck(L_33);
 		String_t* L_34;
-		L_34 = VirtFuncInvoker1< String_t*, String_t* >::Invoke(9 /* System.String System.Xml.XmlReader::GetAttribute(System.String) */, L_33, _stringLiteralD4DAA1A26807E1A567D68B161E6A95701A3FD560);
+		L_34 = VirtualFuncInvoker1< String_t*, String_t* >::Invoke(9 /* System.String System.Xml.XmlReader::GetAttribute(System.String) */, L_33, _stringLiteralD4DAA1A26807E1A567D68B161E6A95701A3FD560);
 		String_t* L_35;
 		L_35 = String_Concat_m37A5BF26F8F8F1892D60D727303B23FB604FEE78(L_32, _stringLiteral9FD9B00B05227B64D8B46A29B6D1B4FEA2C197EF, L_34, _stringLiteralC62C64F00567C5368CAE37F4E64E1E82FF785677, /*hidden argument*/NULL);
 		V_1 = L_35;
@@ -2390,7 +2394,7 @@ IL_00fd:
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_37 = __this->get_reader_0();
 		NullCheck(L_37);
 		String_t* L_38;
-		L_38 = VirtFuncInvoker1< String_t*, String_t* >::Invoke(9 /* System.String System.Xml.XmlReader::GetAttribute(System.String) */, L_37, _stringLiteral1F1BC4D23D8E5661364EBEC728BE303959F6CF91);
+		L_38 = VirtualFuncInvoker1< String_t*, String_t* >::Invoke(9 /* System.String System.Xml.XmlReader::GetAttribute(System.String) */, L_37, _stringLiteral1F1BC4D23D8E5661364EBEC728BE303959F6CF91);
 		String_t* L_39;
 		L_39 = String_Concat_m37A5BF26F8F8F1892D60D727303B23FB604FEE78(L_36, _stringLiteral909AA3EFEECF6508CFB6F17EDD057508FF1D7D17, L_38, _stringLiteralC62C64F00567C5368CAE37F4E64E1E82FF785677, /*hidden argument*/NULL);
 		V_1 = L_39;
@@ -2398,7 +2402,7 @@ IL_00fd:
 		XmlReader_tECCB3D8B757F8CE744EF0430F338BEF15E060138 * L_41 = __this->get_reader_0();
 		NullCheck(L_41);
 		String_t* L_42;
-		L_42 = VirtFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Xml.XmlReader::get_Value() */, L_41);
+		L_42 = VirtualFuncInvoker0< String_t* >::Invoke(8 /* System.String System.Xml.XmlReader::get_Value() */, L_41);
 		IL2CPP_RUNTIME_CLASS_INIT(XmlConvert_t5D0BE0A0EE15E2D3EC7F4881C519B5137DFA370A_il2cpp_TypeInfo_var);
 		String_t* L_43;
 		L_43 = XmlConvert_EscapeValueForDebuggerDisplay_mC40B38C8845EA60991107697E06530945FA22382(L_42, /*hidden argument*/NULL);
@@ -2415,8 +2419,9 @@ IL_017c:
 }
 IL2CPP_EXTERN_C  String_t* XmlReaderDebuggerDisplayProxy_ToString_m8138337CC447054936F29D1E5ED79BFFD11C0101_AdjustorThunk (RuntimeObject * __this, const RuntimeMethod* method)
 {
+	XmlReaderDebuggerDisplayProxy_t06BFFD864B3662CB3DA3FEDA06E8F2A9C626501E * _thisAdjusted;
 	int32_t _offset = 1;
-	XmlReaderDebuggerDisplayProxy_t06BFFD864B3662CB3DA3FEDA06E8F2A9C626501E * _thisAdjusted = reinterpret_cast<XmlReaderDebuggerDisplayProxy_t06BFFD864B3662CB3DA3FEDA06E8F2A9C626501E *>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<XmlReaderDebuggerDisplayProxy_t06BFFD864B3662CB3DA3FEDA06E8F2A9C626501E *>(__this + _offset);
 	String_t* _returnValue;
 	_returnValue = XmlReaderDebuggerDisplayProxy_ToString_m8138337CC447054936F29D1E5ED79BFFD11C0101(_thisAdjusted, method);
 	return _returnValue;
